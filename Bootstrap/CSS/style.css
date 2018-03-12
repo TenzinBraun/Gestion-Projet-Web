@@ -172,3 +172,11 @@ footer .glyphicon {
         font-size: 150px;
     }
 }
+
+.marketing .col-sm-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
