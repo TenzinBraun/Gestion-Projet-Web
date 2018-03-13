@@ -189,3 +189,7 @@ footer .glyphicon {
 #formLogin{
     margin-top:100px;
 }
+
+.modal-open .modal{
+    margin-top: 50px;
+}

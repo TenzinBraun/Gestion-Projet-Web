@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">Logo</a>
+            <img class="navbar-brand" src="image/logo.png" size="500">
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -199,21 +199,84 @@
                 <h2>Martin Braun</h2>
                 <h3>Chef de Projet</h3>
                 <p>20 years Developer</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <p><button  type="button" class="btn btn-secondary" data-toggle="modal" data-target="#braunModal" role="button">View details &raquo;</button></p>
+
+                <!-- Modal -->
+                <div id="braunModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Martin Braun</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Some text in the modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
+
             <div class="col-sm-4">
                 <img class="rounded-circle" src="image/profilPerrot.png" alt="Generic placeholder image" width="140" height="140">
                 <h2>Louis Perrot</h2>
                 <h3>Web Designer</h3>
                 <p>18 years Designer</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <p><button  type="button" class="btn btn-secondary" data-toggle="modal" data-target="#perrotModal" role="button">View details &raquo;</button></p>
+
+                <!-- Modal -->
+                <div id="perrotModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Louis Perrot</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Some text in the modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="col-sm-4">
                 <img class="rounded-circle" src="image/profilLeteno.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>Thibaud Leteno</h2>
                 <h3>Developer</h3>
                 <p>20 years Developer</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <p><button  type="button" class="btn btn-secondary" data-toggle="modal" data-target="#letenoModal" role="button">View details &raquo;</button></p>
+
+                <!-- Modal -->
+                <div id="letenoModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Thibaud Leteno</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Some text in the modal.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
