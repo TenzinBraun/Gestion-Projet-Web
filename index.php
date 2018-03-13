@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="image/logo.png"
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="Bootstrap/JS/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Bootstrap/CSS/style.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -130,21 +131,20 @@
     <div class="row text-center slideanim">
         <div class="col-sm-4">
             <div class="thumbnail">
-                <img src="image/mouv.PNG"  width="200" height="150">
+                <a href="http://www.mouv.fr/"><img src="image/mouv.PNG"  width="200" height="150"></a>
                 <p><strong>Radio Mouv'</strong></p>
 
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="image/culture.PNG"  width="200" height="150">
-                <p><strong>site Culture urbaine</strong></p>
-
+            <div class="thumbnail img">
+                <a href="http://www.cultures-urbaines.fr/"><img src="image/culture.PNG"  width="200" height="150"></a>
+                <p><strong>Culture urbaine</strong></p>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="image/nozbone.PNG"  width="200" height="150">
+            <div class="thumbnail img">
+                <a href="http://www.nozbone.com/"><img src="image/nozbone.PNG"  width="200" height="150"></a>
                 <p><strong>Nozbone skateshop</strong></p>
             </div>
         </div>
@@ -197,21 +197,21 @@
                 <h3>Chef de Projet</h3>
                 <p>20 years Developer</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
+            </div>
             <div class="col-sm-4">
                 <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Louis Perrot</h2>
                 <h3>Web Designer</h3>
                 <p>18 years Designer</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
+            </div>
             <div class="col-sm-4">
                 <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
                 <h2>Thibaud Leteno</h2>
                 <h3>Developer</h3>
                 <p>20 years Developer</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
+            </div>
         </div>
     </div>
 </div>
