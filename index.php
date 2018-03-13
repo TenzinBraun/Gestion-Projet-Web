@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="Bootstrap/JS/bootstrap.js"></script>
     <link rel="stylesheet" href="Bootstrap/CSS/style.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -32,6 +32,8 @@
                 <li><a href="#portrait">PORTRAIT</a> </li>
                 <li><a href="#pricing">PRICING</a></li>
                 <li><a href="#contact">CONTACT</a></li>
+                <li><a href="Formulaire.php"><?php if(isset($_POST['login'])) echo htmlspecialchars($_POST['login']);else echo strtoupper('LOGIN');?></a></li>
+
             </ul>
         </div>
     </div>
@@ -40,11 +42,11 @@
 <div class="jumbotron text-center">
     <h1>Original Web Designer</h1>
     <p>We specialize in creating great and powerful web site</p>
-    <form>
+    <form action="" method="post">
         <div class="input-group">
-            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+            <input type="email" class="form-control" name="adressEmail" size="50" placeholder="Email Address" required>
             <div class="input-group-btn">
-                <button type="button" class="btn btn-danger">Subscribe</button>
+                <button type="submit" name="submit" class="btn btn-danger">Subscribe</button>
             </div>
         </div>
     </form>
@@ -285,10 +287,18 @@
         <div class="col-sm-7 slideanim">
             <div class="row">
                 <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" value=""
+                           <?php
+                           if(isset($_POST['login']))
+                               echo htmlspecialchars($_POST['login']);?>
                 </div>
                 <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" value="
+                    <?php
+                    if(isset($_POST['submit']))
+                        echo htmlspecialchars($_POST['adressEmail']);
+                    elseif (isset($_POST['adressEmailRegister']))
+                        echo  htmlspecialchars($_POST['adressEmailRegister']);?>" required>
                 </div>
             </div>
             <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
