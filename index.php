@@ -58,8 +58,11 @@
     <div class="row">
         <div class="col-sm-8">
             <h2>About OWD</h2><br>
-            <h4>Our Start-up, OWD (Orignal Web Designer), was created by Martin Braun in 2014 and his friends Louis and Thibaud joined him on this project.</h4><br>
-            <p>We are specialized in the conception(design) of Web site and more particularly site on the Urban culture. Our team consists of a leader project named Martin Braun, of a developer named Thibaud Leteno and finally Web Designer named Louis Perrot. Three enthusiasts in Web who will realize your projects with enjoyment and expertise.</p>
+            <h4>Our Start-up, OWD (Orignal Web Designer), was created by Martin Braun in 2014 and his colleagues Louis and Thibaud joined him on this project.</h4><br>
+            <p>We are specialized in the conception of Web Site and more particularly on the Urban culture.
+                Our team consists of a leader project named Martin Braun, of a developer Thibaud Leteno and
+                finally Web Designer named Louis Perrot. Three enthusiasts in Web who will realize your projects
+                with enjoyment and expertise.</p>
             <br><button class="btn btn-default btn-lg">Get in Touch</button>
         </div>
         <div class="col-sm-4">
@@ -199,14 +202,14 @@
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-sm-4">
-                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <img class="rounded-circle" src="image/profilPerrot.png" alt="Generic placeholder image" width="140" height="140">
                 <h2>Louis Perrot</h2>
                 <h3>Web Designer</h3>
                 <p>18 years Designer</p>
                 <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-sm-4">
-                <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+                <img class="rounded-circle" src="image/profilLeteno.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>Thibaud Leteno</h2>
                 <h3>Developer</h3>
                 <p>20 years Developer</p>
