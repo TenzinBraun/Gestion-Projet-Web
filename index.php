@@ -287,10 +287,9 @@
         <div class="col-sm-7 slideanim">
             <div class="row">
                 <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" value=""
-                           <?php
-                           if(isset($_POST['login']))
-                               echo htmlspecialchars($_POST['login']);?>
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" value="<?php
+                    if(isset($_POST['login']))echo  htmlspecialchars($_POST['login']);?>">
+
                 </div>
                 <div class="col-sm-6 form-group">
                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" value="
